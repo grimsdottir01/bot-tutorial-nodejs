@@ -12,7 +12,6 @@ function respond() {
     postMessage();
     this.res.end();
 
-}
    if(request.text && botRegexsu.test(request.text)) {
     this.res.writeHead(200);
     postMessage("this is a test");
