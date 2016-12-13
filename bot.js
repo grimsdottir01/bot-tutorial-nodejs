@@ -87,7 +87,7 @@ function respond() {
   } 
   else if(request.text && botRegexSalt.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("It looks like you are looking for the sign up sheet. here is the Link www.google.com");
+    postMessage("It looks like you are looking for the signup sheet. here is the Link www.google.com");
     this.res.end();
   } 
   else if(request.text && botRegexAd.test(request.text)) {
