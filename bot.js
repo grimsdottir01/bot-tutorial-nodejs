@@ -8,7 +8,7 @@ function respond() {
       botRegex = /^\/cool guy$/;
       botRegexSb = /^\signup$/;
   
-}
+
   if(request.text && signup$.test(request.text)) {
     this.res.writeHead(200);
     postMessage("This is a test");
